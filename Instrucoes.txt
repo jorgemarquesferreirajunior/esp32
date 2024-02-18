@@ -38,3 +38,10 @@
                 git remote add <link-do-repositorio>.git
                 git branch -M main
                 git push -u origin main
+        criar uma conta no heroku
+        instalar o heroku via exe e terminal
+            via terminal
+                npm install -g heroku
+                heroku --version
+                heroku login
+                git add .
