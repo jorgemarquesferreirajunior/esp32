@@ -33,3 +33,8 @@
             criar um arquivo chamada index.js
         no arquivo server.js, importar os arquivos novos criados
             const api = require('./rotas/')
+        opcional:
+            para enviar as alteracoes para o github manualmente..
+                git remote add <link-do-repositorio>.git
+                git branch -M main
+                git push -u origin main
