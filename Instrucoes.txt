@@ -44,4 +44,7 @@
                 npm install -g heroku
                 heroku --version
                 heroku login
+                heroku buildpacks:set heroku/nodejs
                 git add .
+                heroku git:remote -a <nome-projeto-heroku>
+                git commit -am "make it better"
