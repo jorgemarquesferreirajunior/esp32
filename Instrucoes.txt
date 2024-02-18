@@ -1,0 +1,35 @@
+1. Iniciando o backend
+    criar uma pasta dashboard
+    acessar a pasta no prompt: cd dashboard
+        no prompt: 
+            node -v
+            npm init -y
+            npm i express
+            npm install --save-dev nodemon
+            npm i body-parser
+            npm install mongod
+            npm i dotenv
+            npm i mongoose
+            npm i slug
+        no arquivo package.json:
+            adicionar um nome para o projeto no campo "descricao"
+            alterar o nome index.js para server.js no campo "main"
+        opcional: git init
+        criar o arquivo .gitignore
+            inserir o nome da pasta node_modules no arquivo .gitignore
+        criar o arquivo server.js
+            echo //  >  server.js
+        editar o arquivo server.js
+        rodar a aplicacao
+            no prompt:
+                npm start
+        adicionar no arquivo package.json, no campo "script" a seguinte linha:
+            "device": "nodemon server.js"
+        agora para rodar o servidor podemos usar o comando:
+            npm run device
+        # Organizando Rotas
+        criar uma pasta chamada rotas
+            criar um arquivo chamado devices.js
+            criar um arquivo chamada index.js
+        no arquivo server.js, importar os arquivos novos criados
+            const api = require('./rotas/')
